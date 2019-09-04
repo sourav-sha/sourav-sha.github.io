@@ -1,280 +1,410 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+<!-- Add Your Title -->
+  <title> Your Title Here </title>
+
+<!-- All Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+<!-- All Link tags -->
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+<!-- All script tags -->
+  <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="js/main.js"></script>
+
 </head>
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+<!-- Start of Body Tag -->
+<body class="bg-fixed bg-1">
+  <div class="main-container">
+   	<div class="main wrapper clearfix">
+
+ 		<!-- Header Start -->
+     	<header id="header">
+       	<div id="logo">
+         	<h6>
+               	Your Name
+         	</h6>
+         	<h4>
+              	Tag1 / Tag2
+         	</h4>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+    	</header>
+
+    <!-- Text "hello world" -->
+     	<header id="header">
+       	<div id="helloworld">
+         	<h1>
+               	Hello, World !
+         	</h1>
+       	</div>
+    	</header>
+
+   	<!-- Main Tab Container -->
+      <div id="tab-container" class="tab-container">
+
+       	<!-- Tab List -->
+        <ul class='etabs'>
+
+          <li class='tab' id="tab-about">
+           	<a href="#about">
+           		<i class="icon-user"></i>
+           			<span>
+                 				About Me
+           			</span>
+          	</a>
+          </li>
+
+          <li class='tab'>
+            <a href="#resume">
+            	<i class="icon-file-text"></i>
+            		<span>
+                			 Skills
+            		</span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#portfolio">
+           		<i class="icon-heart"></i>
+           			<span>
+               				 Projects
+         				</span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#contact">
+             	<i class="icon-envelope"></i>
+                <span>
+                 			Contact
+            		</span>
+            </a>
+          </li>
+
         </ul>
-    </header>
-    <!-- End header -->
+      	<!-- End Tab List -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Code for differents Tabs strat from here. -->
+    <div id="tab-data-wrap">
 
-        <div id="lead-overlay"></div>
+      <!-- About Tab Data -->
+      <div id="about">
+        <section class="clearfix">
+          <div class="g2">
+            <div class="photo">
+              <img src="../portfolio-template/images/my.jpg" alt="Your alt text">
+            </div>
+            <div class="info">
+              <h2>
+                <p></p>
+                        Your Name
+              </h2>
+              <h4>
+                        Your work tag
+              </h4>
+              <p>
+                        Type your description here.
+              </p>
+              </p>
+            </div>
+          </div>
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
+          <div class="g1">
+            <div class="main-links sidebar">
+              <ul>
+                <li>
+                  <a href="#resume">
+                            View My Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#portfolio">
+                            View My Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact">
+                             Hire me for your next project
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="break">
+          </div>
+          <div class="contact-info">
+            <div class="g1">
+              <div class="item-box clearfix">
+                <i class="icon-envelope"></i>
+                  <div class="item-data">
+                    <h3>
+                      <a href="mailto:write@your_mail.here">
+                                Add Your mail
+                      </a>
+                    </h3>
                     <p>
-                        My name is Sourav Sharma. I'm a final year undergraduate student at Army Institue of Technology pursuing my bachelor's in Information Technology.
+                         Email Address
                     </p>
+                  </div>
+              </div>
+            </div>
+          <div class="g1">
+            <div class="item-box clearfix">
+              <i class="icon-facebook"></i>
+                <div class="item-data">
+                  <h3>
+                    <a href="http://fb.me/your-Username">
+                                  Add Facebook Link
+                    </a>
+                  </h3>
+                  <p>
+                         Facebook Profile
+                  </p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
-    <!--
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+          </div>
+          <div class="g1">
+            <div class="item-box clearfix">
+              <i class="icon-twitter"></i>
+                <div class="item-data">
+                  <h3>
+                    <a href="http://twitter.com/your-Username">
+                         Add Twiter username
+                    </a>
+                  </h3>
+                  <p>
+                         Twitter Handle
+                  </p>
+                </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+    <!-- End About Tab Data -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- skills Tab Data -->
+      <div id="resume">
+        <section class="clearfix">
+          <div class="g2">
+            <h3>
+                 Programming
+            </h3>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        Language 1
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        Language 2
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 70%">
+                <span>
+                        Language 3
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 65%">
+                <span>
+                        Language 4
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 85%">
+                <span>
+                        Language 5
+                </span>
+              </span>
+            </div>
+            <div class="break"></div>
+          </div>
+
+          <div class ="g1">
+            <h3>
+                  Skills
+            </h3>
+            <div class="meter emerald">
+              <span style="width: 70%">
+                <span>
+                        skill 1
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 85%">
+                <span>
+                        skill 2
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 80%">
+                <span>
+                        skill 3
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 90%">
+                <span>
+                        skill 4
+                </span>
+              </span>
+            </div>
+            <div class="meter emerald">
+              <span style="width: 65%">
+                <span>
+                        skill 5
+                </span>
+              </span>
+            </div>
+          </div>
+
+          <div class="g2">
+            <h3>
+                  Hobbies
+            </h3>
+            <span class="label label-info">Hobby 1</span>
+            <span class="label label-info">Hobby 2</span>
+            <span class="label label-info">Hobby 3</span>
+            <span class="label label-info">Hobby 4</span>
+          </div>
+        </section>
+      </div>
+
+    <!-- End skills Tab Data -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Projects Tab Data -->
+      <div id="portfolio">
+        <section class="clearfix">
+          <table>
+                  <tbody id = "table-body">
+                    <tr>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image  </div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="project-div">
+                          <div class="image">Project image</div>
+                          <div class="data">Project</div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </section>
+      </div>
+    <!-- End Projects tab -->
+<!-- ----------------------------------------------------------------------------------- -->
+    <!-- Contact Tab Data -->
+      <div id="contact">
+        <section class="clearfix">
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-globe"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    Address
+                </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Type here
                 </p>
+              </div>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+          </div>
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-phone"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    E-mail
+                </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Add your mail 1<br/>Add your mail 2
                 </p>
+              </div>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+          </div>
+          <div class="g1">
+            <div class="sny-icon-box">
+              <div class="sny-icon">
+                <i class="icon-user"></i>
+              </div>
+              <div class="sny-icon-content">
+                <h4>
+                    About Me
+                </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Write something about you
                 </p>
+              </div>
             </div>
-        </div>
+          </div>
+          <div class="break"></div>
+        </section>
+      </div>
+    <!-- End Contact Data -->
+<!-- ----------------------------------------------------------------------------------- -->
     </div>
-    -->
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Army Institute of Technology, Pune</h3>
-            <span class="education-date">Jun 2016 - Present</span>
-            <h4>Bachelor of Engineering in Information Technology</h4>
-            <p>
-                
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Jawahar Navodaya Vidyalaya, Una</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>10+2</h4>
-            <!--
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        -->
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2017 YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+  </div>
 </body>
-
 </html>
