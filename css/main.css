@@ -772,7 +772,7 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
-.project-div { background-color: #4AB478; text-align: center; padding: 10px; }
+.project-div { background-color: #4AB478; text-align: center; padding: 15px; }
 .image {height: 100px;background-color: white;margin-bottom: 10px;font-family: Sofia;text-align: center;padding-top:30px;font-size: 20px;font-weight: bold;}
 .data { font-size: 150%;font-family: 'Amaranth';color: white;}
 td {padding: 20px;width:250px;height: 200px;}
